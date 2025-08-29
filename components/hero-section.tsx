@@ -17,8 +17,12 @@ export function HeroSection() {
                 <span className="block text-cyan-500">Prime Axis Express</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Send packages anywhere in the world with our fast, reliable express delivery service. Get instant quotes
-                and track your shipments in real-time.
+
+                Just Make the request on the website and our Team will come
+                to pick up your package. you don't have to leave your home or office. 
+                and we will deliver it to the recierve door step.
+   
+
               </p>
             </div>
 
@@ -42,7 +46,7 @@ export function HeroSection() {
                 <div className="flex justify-center mb-2">
                   <Package className="h-8 w-8 text-cyan-500" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">1M+</div>
+                <div className="text-2xl font-bold text-gray-900">1000+</div>
                 <div className="text-sm text-gray-600">Packages Delivered</div>
               </div>
               <div className="text-center">
@@ -56,7 +60,7 @@ export function HeroSection() {
                 <div className="flex justify-center mb-2">
                   <Globe className="h-8 w-8 text-cyan-500" />
                 </div>
-                <div className="text-2xl font-bold text-gray-900">200+</div>
+                <div className="text-2xl font-bold text-gray-900">10+</div>
                 <div className="text-sm text-gray-600">Countries Served</div>
               </div>
             </div>
@@ -73,14 +77,7 @@ export function HeroSection() {
                 height={400}
                 className="w-full h-auto"
               />
-              <div className="absolute bottom-4 left-1">
-                <h3 className="text-lg font-semibold text-gray-900 bg-white/90 px-3 py-1 rounded-lg shadow-sm">
-                  Regional Network
-                </h3>
-                <p className="text-sm text-gray-700 bg-white/80 px-3 py-1 rounded-lg shadow-sm mt-1">
-                  Connecting East Africa & Beyond
-                </p>
-              </div>
+       
             </div>
 
             {/* Tracking Visual */}
